@@ -1,0 +1,13 @@
+.exp-aff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.exp-words {
+  overflow-wrap: wrap;
+  margin: 0;
+  color: #1a535c;
+}

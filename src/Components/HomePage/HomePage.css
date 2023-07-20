@@ -1,0 +1,47 @@
+.home-page-wrapper{
+  height: 100vh;
+  width: 100vw;
+  background-color: #cdb4db;
+  opacity: 1;
+  background-image:  radial-gradient(#ffc8dd 2px, transparent 2px), radial-gradient(#ffc8dd 2px, #cdb4db 2px);
+  background-size: 80px 80px;
+  background-position: 0 0,40px 40px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.home-page-subtitle{
+  color: #ffffff;
+}
+
+h4 {
+  color: #ffffff;
+}
+
+.home-container {
+display: flex;
+background-color: #a2d2ff;
+justify-content: center;
+align-items: center;
+width: 40vh;
+height: 20vh;
+flex-direction: column;
+border-radius: 15px;
+}
+
+.home-button-container {
+  display: flex;
+  }
+
+.home-button{ 
+  height: 2.5em;
+  border-radius: 5px;
+  width: 10em;
+  border: none;
+  box-shadow: 5px 5px 5px #a2d2ff;
+  background-color: #cdb4db;
+  margin: 1em;
+  color: white;
+  font-weight: 800;
+}

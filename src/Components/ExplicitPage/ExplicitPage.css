@@ -1,0 +1,49 @@
+.exp-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #171123;
+  opacity: 1;
+  background-image:  radial-gradient(#e71d36 2px, transparent 2px), radial-gradient(#e71d36 2px, #4ecdc4 2px);
+  background-size: 80px 80px;
+  background-position: 0 0,40px 40px;
+}
+
+.exp-background {
+  margin: 15em 5em;
+  background-color: #cbf3f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 35vh;
+  border-radius: 15px;
+}
+
+.exp-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exp-header {
+  color: #ff6b6b;
+}
+.exp-select {
+  height: 2.5em;
+  max-width: 8em;
+  border-radius: 5px;
+  color: #1a535c;
+  margin-bottom: 1em;
+  border: none;
+  box-shadow: 5px 5px 5px #a2d2ff;
+}
+
+.exp-button {
+  height: 2.5em;
+  border-radius: 5px;
+  max-width: 8em;
+  border: none;
+  box-shadow: 5px 5px 5px #a2d2ff;
+  background-color: #1a535c;
+  color:white;
+}

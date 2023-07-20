@@ -1,0 +1,49 @@
+.cat-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #cdb4db;
+  opacity: 1;
+  background-image:  radial-gradient(#ffc8dd 2px, transparent 2px), radial-gradient(#ffc8dd 2px, #cdb4db 2px);
+  background-size: 80px 80px;
+  background-position: 0 0,40px 40px;
+}
+
+.cat-background {
+  margin: 15em 5em;
+  background-color: #bde0fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 35vh;
+  border-radius: 15px;
+}
+
+.cat-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat-header {
+  color: #fd87b3;
+}
+.cat-select {
+  height: 2.5em;
+  max-width: 8em;
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 1em;
+  border: none;
+  box-shadow: 5px 5px 5px #a2d2ff;
+}
+
+.cat-button {
+  height: 2.5em;
+  border-radius: 5px;
+  max-width: 8em;
+  border: none;
+  box-shadow: 5px 5px 5px #a2d2ff;
+  background-color: #cdb4db;
+  font-weight: 800;
+}
